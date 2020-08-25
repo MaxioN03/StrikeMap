@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Strike Map</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=2da80312-f742-4ab9-8319-606c5f5994e1&lang=ru_RU"
+            type="text/javascript">
+    </script>
+    <script type="text/javascript" src="map.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="block header">
+    <div class="logo">
+        <div class="logo_image"></div>
+        <div class="logo_title">Карта забастовок Беларуси</div>
+    </div>
+</div>
+<div class="block colored description">
+    <div class="description_title">
+        Что это такое?
+    </div>
+    <div class="description_text">
+        Данная страница предназначена для мониторинга текущих забастовок в Беларуси, местоположения производств
+    </div>
+    <div class="description_title">
+        А зачем это надо?
+    </div>
+    <div class="description_text">
+        Мониторинг позволяет отследить существующие забастовки, узнать информацию о стачкомах
+    </div>
+    <div class="description_title">
+        А это законно?
+    </div>
+    <div class="description_text">
+        Да, в этом можно убедиться, прочитав <a target="_blank" href="https://kodeksy-by.com/trudovoj_kodeks_rb/388.htm">Трудовой кодекс Республики Беларусь</a>
+    </div>
+</div>
+<div class="map_container">
+    <div id="map"></div>
+</div>
+<div class="block footer">
+    #КартаЗабастовок
+</div>
+</body>
+</html>
